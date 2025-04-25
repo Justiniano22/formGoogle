@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    font-family: "Open Sans", serif;
+}
+
+html{
+    background-color: #1E1F20;
+}
+
+#contenedor{
+    display: flex;
+    align-items: center;
+    height: 900px;
+}
+
+.main-container{
+    margin: auto;
+    background-color: #0E0E0E;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+    height: 340px;
+    border-radius: 35px;
+    padding: 24px;
+    gap: 100px;
+}
+
+.main-container span{
+    font-size: 44px;
+}
+
+.container-form span{
+    font-size: 1rem;
+}
+
+.container-text{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container-text picture img{
+    height: 45px;
+    width: 45px;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.botonEdit{
+    color: white;
+    background-color: #0E0E0E;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.container-form hr{
+    width: 440px;
+    border-top: 1px solid #444746;
+}
+
+.botonEdit:hover{
+    background-color: #444746;
+    opacity: 0.50;
+    color: white;
+}
+
+.botonUser, .botonDelete{
+    display: flex;
+    align-items: center;
+}
+
+.botonUser picture img, .botonDelete picture img{
+    height: 20px;
+    width: 20px;
+}
